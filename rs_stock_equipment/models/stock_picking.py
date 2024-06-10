@@ -12,7 +12,7 @@ class StockPicking(models.Model):
         except ValueError:
             return False
 
-    equipment_id = fields.Many2one('rs.stock.equipment', string='Equipment', required=True, default=lambda self: self._default_equipment_id())
+    equipment_id = fields.Many2one('rs.stock.equipment', string='Equipment', required=False, default=lambda self: self._default_equipment_id())
 
 
     # def write(self, vals):
