@@ -24,12 +24,17 @@ class Equipment(models.Model):
             record.equipment_stock_move_count = self.env['stock.move'].search_count([('equipment_id', '=', record.id)])
 
 
-    def name_get(self):
-        result = []
+    # def name_get(self):
+    #     result = []
+    #     for record in self:
+    #         name = f"[{record.code}] {record.name}"
+    #         result.append((record.id, name))
+    #     return result
+
+    @api.depends('code')
+    def _compute_display_name(self):
         for record in self:
-            name = f"[{record.code}] {record.name}"
-            result.append((record.id, name))
-        return result
+            record.display_name = f'[{record.code}] {record.name}'
 
     @api.depends('name', 'code')
     def _compute_display_name(self):
