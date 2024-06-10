@@ -33,7 +33,7 @@ Generate a report showing all inventory transfers related to a specific piece of
 
     # any module necessary for this one to work correctly
     'depends': ['base','stock'],
-
+    'license': 'LGPL-3',
     # always loaded
     'data': [
         'security/ir.model.access.csv',
