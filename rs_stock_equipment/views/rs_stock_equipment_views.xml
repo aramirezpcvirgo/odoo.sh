@@ -1,0 +1,56 @@
+<odoo>
+    <record id="view_equipment_form" model="ir.ui.view">
+        <field name="name">equipment.form</field>
+        <field name="model">rs.stock.equipment</field>
+        <field name="arch" type="xml">
+            <form string="Equipment">
+                <sheet>
+                    <div class="oe_button_box" name="button_box" position="inside">
+                        <button name="action_view_stock_move_lines" type="object" icon="fa-sitemap" class="oe_stat_button">
+                            <field string="Stock Moves" name="equipment_stock_move_line_count" widget="statinfo"/>
+                        </button>
+                        <button name="action_view_stock_move" type="object" icon="fa-sitemap" class="oe_stat_button">
+                            <field string="Stock Moves Detail" name="equipment_stock_move_count" widget="statinfo"/>
+                        </button>
+                    </div>
+                    <div class="oe_title">
+                        <label for="name" string="Machine Name"/>
+                        <h1>
+                            <div class="d-flex">
+                                <field class="text-break" name="name" options="{'line_breaks': False}" widget="text" placeholder="e.g. Backhoe"/>
+                            </div>
+                        </h1>
+                    </div>
+                    <group>
+                        <field name="code"/>
+                        <field name="description"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_equipment_tree" model="ir.ui.view">
+        <field name="name">equipment.tree</field>
+        <field name="model">rs.stock.equipment</field>
+        <field name="arch" type="xml">
+            <tree string="Equipment">
+                <field name="name"/>
+                <field name="code"/>
+            </tree>
+        </field>
+    </record>
+
+
+    <record id="action_equipment" model="ir.actions.act_window">
+        <field name="name">Equipment</field>
+        <field name="res_model">rs.stock.equipment</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_id" ref="view_equipment_tree"/>
+    </record>
+
+    <menuitem id="menu_equipment_catalog" name="Equipment Catalog" parent="stock.menu_warehouse_report" sequence="100000" action="action_equipment"/>
+
+
+
+</odoo>

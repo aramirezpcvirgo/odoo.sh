@@ -1,0 +1,136 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* rs_stock_equipment
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-03 16:27+0000\n"
+"PO-Revision-Date: 2024-06-03 10:28-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_MX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.3\n"
+
+#. module: rs_stock_equipment
+#: model:ir.model.fields,field_description:rs_stock_equipment.field_rs_stock_equipment__code
+#, fuzzy
+msgid "Code"
+msgstr "Código"
+
+#. module: rs_stock_equipment
+#: model:ir.model.fields,field_description:rs_stock_equipment.field_rs_stock_equipment__create_uid
+#, fuzzy
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: rs_stock_equipment
+#: model:ir.model.fields,field_description:rs_stock_equipment.field_rs_stock_equipment__create_date
+#, fuzzy
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: rs_stock_equipment
+#: model:ir.model.fields,field_description:rs_stock_equipment.field_rs_stock_equipment__description
+#, fuzzy
+msgid "Description"
+msgstr "Descripción"
+
+#. module: rs_stock_equipment
+#: model:ir.model.fields,field_description:rs_stock_equipment.field_rs_stock_equipment__display_name
+#, fuzzy
+msgid "Display Name"
+msgstr "Nombre para mostrar"
+
+#. module: rs_stock_equipment
+#: model:ir.actions.act_window,name:rs_stock_equipment.action_equipment
+#: model:ir.model,name:rs_stock_equipment.model_rs_stock_equipment
+#: model:ir.model.fields,field_description:rs_stock_equipment.field_stock_move__equipment_id
+#: model:ir.model.fields,field_description:rs_stock_equipment.field_stock_move_line__equipment_id
+#: model:ir.model.fields,field_description:rs_stock_equipment.field_stock_picking__equipment_id
+#: model_terms:ir.ui.view,arch_db:rs_stock_equipment.view_equipment_form
+#: model_terms:ir.ui.view,arch_db:rs_stock_equipment.view_equipment_tree
+#: model_terms:ir.ui.view,arch_db:rs_stock_equipment.view_move_line_search_inherit
+#: model_terms:ir.ui.view,arch_db:rs_stock_equipment.view_picking_internal_search_inherit
+#, fuzzy
+msgid "Equipment"
+msgstr "Equipamiento"
+
+#. module: rs_stock_equipment
+#: model:ir.ui.menu,name:rs_stock_equipment.menu_equipment_catalog
+#, fuzzy
+msgid "Equipment Catalog"
+msgstr "Catálogo de equipos"
+
+#. module: rs_stock_equipment
+#: model:ir.model.fields,field_description:rs_stock_equipment.field_rs_stock_equipment__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: rs_stock_equipment
+#: model:ir.model.fields,field_description:rs_stock_equipment.field_rs_stock_equipment__write_uid
+#, fuzzy
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: rs_stock_equipment
+#: model:ir.model.fields,field_description:rs_stock_equipment.field_rs_stock_equipment__write_date
+#, fuzzy
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: rs_stock_equipment
+#: model_terms:ir.ui.view,arch_db:rs_stock_equipment.view_equipment_form
+#, fuzzy
+msgid "Machine Name"
+msgstr "Nombre de la máquina"
+
+#. module: rs_stock_equipment
+#: model:ir.model.fields,field_description:rs_stock_equipment.field_rs_stock_equipment__name
+#, fuzzy
+msgid "Name"
+msgstr "Nombre"
+
+#. module: rs_stock_equipment
+#: model:ir.model,name:rs_stock_equipment.model_stock_move_line
+#, fuzzy
+msgid "Product Moves (Stock Move Line)"
+msgstr "Movimientos de productos (línea de movimiento de existencias)"
+
+#. module: rs_stock_equipment
+#: model:ir.model,name:rs_stock_equipment.model_stock_move
+#, fuzzy
+msgid "Stock Move"
+msgstr "Movimiento de Stock"
+
+#. module: rs_stock_equipment
+#: model:ir.model.fields,field_description:rs_stock_equipment.field_rs_stock_equipment__equipment_stock_move_count
+#: model:ir.model.fields,field_description:rs_stock_equipment.field_rs_stock_equipment__equipment_stock_move_line_count
+#: model_terms:ir.ui.view,arch_db:rs_stock_equipment.view_equipment_form
+#, fuzzy
+msgid "Stock Moves"
+msgstr "Movimiento de existencia"
+
+#. module: rs_stock_equipment
+#: model_terms:ir.ui.view,arch_db:rs_stock_equipment.view_equipment_form
+#, fuzzy
+msgid "Stock Moves Detail"
+msgstr "Movimientos de existencias Detalle"
+
+#. module: rs_stock_equipment
+#: model:ir.model,name:rs_stock_equipment.model_stock_picking
+#, fuzzy
+msgid "Transfer"
+msgstr "Transferencia"
+
+#. module: rs_stock_equipment
+#: model_terms:ir.ui.view,arch_db:rs_stock_equipment.view_equipment_form
+#, fuzzy
+msgid "e.g. Backhoe"
+msgstr "p. ej. Retroexcavadora"

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <data noupdate="1">
+
+        <record id="equipment_na" model="rs.stock.equipment">
+            <field name="code">NA</field>
+            <field name="name">N/A</field>
+            <field name="description">No aplica a equipo</field>
+        </record>
+
+
+    </data>
+</odoo>
